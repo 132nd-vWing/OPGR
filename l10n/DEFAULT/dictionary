@@ -1,5 +1,8 @@
 dictionary = 
 {
+    ["DictKey_GroupName_5"] = "New Airplane Group",
+    ["DictKey_UnitName_6"] = "Pilot #001",
+    ["DictKey_WptName_7"] = "",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
     ["DictKey_descriptionText_1"] = "",
