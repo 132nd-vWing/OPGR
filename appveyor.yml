@@ -59,7 +59,7 @@ cache:
 
 build_script:
   - cmd: 7za a -bb0 dummy.miz C:\projects\OPGR\* -xr!.git -x!*.miz -x!*.yml
-  - cmd: IF /I "%APPVEYOR_REPO_TAG%"=="true" (ren dummy.miz OPGR_%APPVEYOR_REPO_TAG_NAME%.miz) ELSE (ren dummy.miz TRMT_%APPVEYOR_BUILD_VERSION%.miz)
+  - cmd: IF /I "%APPVEYOR_REPO_TAG%"=="true" (ren dummy.miz OPGR_%APPVEYOR_REPO_TAG_NAME%.miz) ELSE (ren dummy.miz OPGR_%APPVEYOR_BUILD_VERSION%.miz)
   
 #after_build:
 #  - cmd: git fetch && git checkout %APPVEYOR_REPO_BRANCH%
